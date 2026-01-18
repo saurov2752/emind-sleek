@@ -39,9 +39,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" size="default">
-              Get Started
-            </Button>
+            <a href="#projects">
+              <Button variant="hero" size="default">
+                Get Started
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -68,9 +70,11 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="mt-2">
-                Get Started
-              </Button>
+              <a href="#projects" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="hero" size="lg" className="mt-2 w-full">
+                  Get Started
+                </Button>
+              </a>
             </div>
           </div>
         )}
