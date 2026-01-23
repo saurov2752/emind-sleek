@@ -9,6 +9,8 @@ const projects = [
       "A comprehensive financial management platform that helps businesses track expenses, manage invoices, and generate real-time financial reports. Built with modern technologies for optimal performance and security.",
     technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
     gradient: "from-primary to-primary/70",
+    demoUrl: "https://facebook.com",
+    docsUrl: "https://youtube.com",
   },
   {
     title: "HealthSync",
@@ -17,6 +19,8 @@ const projects = [
       "An innovative healthcare management system connecting patients with providers through secure telehealth features, appointment scheduling, and electronic health records management.",
     technologies: ["Next.js", "Python", "MongoDB", "Azure"],
     gradient: "from-accent to-accent/70",
+    demoUrl: "https://whatsapp.com",
+    docsUrl: "https://instagram.com",
   },
 ];
 
@@ -78,14 +82,18 @@ const ProjectsSection = () => {
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Button variant="demo" size="lg" className="w-full sm:w-auto">
-                    View Live Demo
-                    <ExternalLink className="w-4 h-4" />
-                  </Button>
-                  <Button variant="docs" size="lg" className="w-full sm:w-auto">
-                    Documentation
-                    <FileText className="w-4 h-4" />
-                  </Button>
+                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                    <Button variant="demo" size="lg" className="w-full sm:w-auto">
+                      View Live Demo
+                      <ExternalLink className="w-4 h-4" />
+                    </Button>
+                  </a>
+                  <a href={project.docsUrl} target="_blank" rel="noopener noreferrer">
+                    <Button variant="docs" size="lg" className="w-full sm:w-auto">
+                      Documentation
+                      <FileText className="w-4 h-4" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
