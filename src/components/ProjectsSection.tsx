@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, FileText } from "lucide-react";
 
 const projects = [
   {
@@ -76,11 +76,17 @@ const ProjectsSection = () => {
                   ))}
                 </div>
 
-                {/* View Demo Button */}
-                <Button variant="demo" size="lg" className="w-full sm:w-auto">
-                  View Live Demo
-                  <ExternalLink className="w-4 h-4" />
-                </Button>
+                {/* Action Buttons */}
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button variant="demo" size="lg" className="w-full sm:w-auto">
+                    View Live Demo
+                    <ExternalLink className="w-4 h-4" />
+                  </Button>
+                  <Button variant="docs" size="lg" className="w-full sm:w-auto">
+                    Documentation
+                    <FileText className="w-4 h-4" />
+                  </Button>
+                </div>
               </div>
             </div>
           ))}
