@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, FileText } from "lucide-react";
+import adminDashboardBg from "@/assets/admin-dashboard-bg.jpg";
+import ecommerceUserBg from "@/assets/ecommerce-user-bg.jpg";
 
 const projects = [
   {
@@ -8,7 +10,7 @@ const projects = [
     description:
       "A comprehensive financial management platform that helps businesses track expenses, manage invoices, and generate real-time financial reports. Built with modern technologies for optimal performance and security.",
     technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
-    gradient: "from-slate-800 via-slate-700 to-slate-900",
+    backgroundImage: adminDashboardBg,
     demoUrl: "https://facebook.com",
     docsUrl: "https://youtube.com",
   },
@@ -18,7 +20,7 @@ const projects = [
     description:
       "An innovative healthcare management system connecting patients with providers through secure telehealth features, appointment scheduling, and electronic health records management.",
     technologies: ["Next.js", "Python", "MongoDB", "Azure"],
-    gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
+    backgroundImage: ecommerceUserBg,
     demoUrl: "https://whatsapp.com",
     docsUrl: "https://instagram.com",
   },
@@ -48,11 +50,13 @@ const ProjectsSection = () => {
               key={index}
               className="group relative bg-card rounded-2xl border border-border overflow-hidden card-hover"
             >
-              {/* Project Header with gradient */}
-              <div className={`h-48 bg-gradient-to-br ${project.gradient} p-8 flex flex-col justify-end relative overflow-hidden`}>
-                {/* Decorative circles */}
-                <div className="absolute top-4 right-4 w-24 h-24 rounded-full bg-primary-foreground/10 blur-xl" />
-                <div className="absolute -bottom-8 -left-8 w-32 h-32 rounded-full bg-primary-foreground/10 blur-xl" />
+              {/* Project Header with background image */}
+              <div 
+                className="h-48 p-8 flex flex-col justify-end relative overflow-hidden bg-cover bg-center"
+                style={{ backgroundImage: `url(${project.backgroundImage})` }}
+              >
+                {/* Overlay for better text readability */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
                 
                 <span className="text-primary-foreground/80 text-sm font-medium mb-1 relative z-10">
                   {project.category}
