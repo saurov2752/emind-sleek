@@ -8,7 +8,7 @@ const projects = [
     description:
       "A comprehensive financial management platform that helps businesses track expenses, manage invoices, and generate real-time financial reports. Built with modern technologies for optimal performance and security.",
     technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
-    gradient: "from-primary to-primary/70",
+    gradient: "from-slate-800 via-slate-700 to-slate-900",
     demoUrl: "https://facebook.com",
     docsUrl: "https://youtube.com",
   },
@@ -18,7 +18,7 @@ const projects = [
     description:
       "An innovative healthcare management system connecting patients with providers through secure telehealth features, appointment scheduling, and electronic health records management.",
     technologies: ["Next.js", "Python", "MongoDB", "Azure"],
-    gradient: "from-accent to-accent/70",
+    gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
     demoUrl: "https://whatsapp.com",
     docsUrl: "https://instagram.com",
   },
