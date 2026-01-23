@@ -54,15 +54,15 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-border/50 max-w-2xl mx-auto animate-fade-in">
             <div className="text-center">
-              <p className="text-3xl lg:text-4xl font-bold gradient-text">150+</p>
+              <p className="text-3xl lg:text-4xl font-bold gradient-text">50+</p>
               <p className="text-sm text-muted-foreground mt-1">Projects Delivered</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl lg:text-4xl font-bold gradient-text">50+</p>
+              <p className="text-3xl lg:text-4xl font-bold gradient-text">45+</p>
               <p className="text-sm text-muted-foreground mt-1">Happy Clients</p>
             </div>
             <div className="text-center">
-              <p className="text-3xl lg:text-4xl font-bold gradient-text">8+</p>
+              <p className="text-3xl lg:text-4xl font-bold gradient-text">3+</p>
               <p className="text-sm text-muted-foreground mt-1">Years Experience</p>
             </div>
           </div>

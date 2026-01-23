@@ -34,10 +34,10 @@ const AboutSection = () => {
               About Us
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Trusted Technology Partner Since 2016
+              Trusted Technology Partner Since 2022
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              NexaTech is a forward-thinking IT company dedicated to helping businesses 
+              DebuggerMind is a forward-thinking IT company dedicated to helping businesses 
               navigate the complexities of digital transformation. With a team of experienced 
               developers, designers, and strategists, we deliver technology solutions that 
               drive growth and innovation.

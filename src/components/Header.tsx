@@ -19,9 +19,9 @@ const Header = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">N</span>
+              <span className="text-primary-foreground font-bold text-lg">D</span>
             </div>
-            <span className="text-xl font-bold text-foreground">NexaTech</span>
+            <span className="text-xl font-bold text-foreground">DebuggerMind</span>
           </a>
 
           {/* Desktop Navigation */}
