@@ -18,7 +18,7 @@ const Header = () => {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <img src="/dm_fav.png" alt="DebuggerMind Logo" className="w-10 h-10 rounded-lg object-cover" />
+            <img src="/dm_logo.png" alt="DebuggerMind Logo" className="w-12 h-10 object-contain" />
             <span className="text-xl font-bold text-foreground">DebuggerMind</span>
           </a>
 
