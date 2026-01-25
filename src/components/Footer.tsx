@@ -10,9 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
-              </div>
+              <img src="/dm_fav.png" alt="DebuggerMind Logo" className="w-10 h-10 rounded-lg object-cover" />
               <span className="text-xl font-bold">DebuggerMind</span>
             </div>
             <p className="text-background/70 max-w-sm mb-6">
