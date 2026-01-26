@@ -5,23 +5,23 @@ import ecommerceUserBg from "@/assets/ecommerce-user-bg.jpg";
 
 const projects = [
   {
-    title: "FinTrack Pro",
-    category: "FinTech Platform",
+    title: "eMind Admin Hub",
+    category: "Ecommerce Solution",
     description:
-      "A comprehensive financial management platform that helps businesses track expenses, manage invoices, and generate real-time financial reports. Built with modern technologies for optimal performance and security.",
-    technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
+      "Empower your business with our sleek, feature-rich admin panel. Combining a stunning UI with intuitive controls, it’s the ultimate admin-friendly solution designed for seamless, high-performance ecommerce management.",
+    technologies: ["Laravel", "Php", "MySql", "JWT Auth"],
     backgroundImage: adminDashboardBg,
-    demoUrl: "https://facebook.com",
+    demoUrl: "https://admin.debuggermind.com",
     docsUrl: "https://youtube.com",
   },
   {
-    title: "HealthSync",
-    category: "Healthcare Solution",
+    title: "eMind AI Powered Web App",
+    category: "Ecommerce Solution",
     description:
-      "An innovative healthcare management system connecting patients with providers through secure telehealth features, appointment scheduling, and electronic health records management.",
-    technologies: ["Next.js", "Python", "MongoDB", "Azure"],
+      "Experience the future of retail with our AI-powered ecommerce platform. Blending a stunning modern UI with elite performance, it delivers a seamless, user-friendly shopping journey designed for high-conversion growth.",
+    technologies: ["Next.js", "React", "Google AI"],
     backgroundImage: ecommerceUserBg,
-    demoUrl: "https://whatsapp.com",
+    demoUrl: "https://emind.debuggermind.com",
     docsUrl: "https://instagram.com",
   },
 ];
