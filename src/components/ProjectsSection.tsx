@@ -36,10 +36,10 @@ const ProjectsSection = () => {
             Our Work
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Featured Projects
+            Let’s Explore The eMind
           </h2>
           <p className="text-lg text-muted-foreground">
-            Explore some of our recent work and see how we help businesses achieve their goals.
+            Explore the eMind and see how we help businesses achieve their goals.
           </p>
         </div>
 

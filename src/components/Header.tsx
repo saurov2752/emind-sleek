@@ -6,10 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#projects", label: "Projects" },
-    { href: "#services", label: "Services" },
-    { href: "#about", label: "About Us" },
+    // { href: "#home", label: "Home" },
+    // { href: "#projects", label: "Projects" },
+    // { href: "#services", label: "Services" },
+    // { href: "#about", label: "About Us" },
   ];
 
   return (
@@ -18,8 +18,8 @@ const Header = () => {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <img src="/dm_logo.png" alt="DebuggerMind Logo" className="w-12 h-10 object-contain" />
-            <span className="text-xl font-bold text-foreground">DebuggerMind</span>
+            <img src="/dm_logo.png" alt="eMind Logo" className="w-12 h-10 object-contain" />
+            <span className="text-xl font-bold text-foreground">eMind</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -39,7 +39,7 @@ const Header = () => {
           <div className="hidden md:block">
             <a href="#projects">
               <Button variant="hero" size="default">
-                Get Started
+                Buy Now
               </Button>
             </a>
           </div>

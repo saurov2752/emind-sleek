@@ -10,14 +10,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/dm_logo.png" alt="DebuggerMind Logo" className="w-12 h-10 object-contain" />
-              <span className="text-xl font-bold">DebuggerMind</span>
+              <img src="/dm_logo.png" alt="eMind Logo" className="w-12 h-10 object-contain" />
+              <span className="text-xl font-bold">eMind</span>
             </div>
             <p className="text-background/70 max-w-sm mb-6">
-              Building innovative technology solutions that transform businesses 
-              and drive sustainable growth in the digital age.
+              eMind is an AI-driven universal commerce platform built with a modern, scalable architecture to power fashion, grocery, electronics, and other online retail operations.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <a
                 href="#"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors duration-200"
@@ -39,12 +38,12 @@ const Footer = () => {
               >
                 <Github className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            {/* <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-3">
               <li>
                 <a href="#home" className="text-background/70 hover:text-background transition-colors duration-200">
@@ -66,7 +65,7 @@ const Footer = () => {
                   About Us
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* Contact Info */}
