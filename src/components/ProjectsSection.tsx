@@ -12,7 +12,7 @@ const projects = [
     technologies: ["Laravel", "Php", "MySql", "JWT Auth"],
     backgroundImage: adminDashboardBg,
     demoUrl: "https://admin.debuggermind.com",
-    docsUrl: "https://youtube.com",
+    docsUrl: "https://emind-backend-documentation.vercel.app/BackendDocumentation.html",
   },
   {
     title: "eMind AI Powered Web App",
