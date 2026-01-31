@@ -22,7 +22,7 @@ const projects = [
     technologies: ["Next.js", "React", "Google AI"],
     backgroundImage: ecommerceUserBg,
     demoUrl: "https://emind.debuggermind.com",
-    docsUrl: "https://instagram.com",
+    docsUrl: "https://emind-frontend-documentation.vercel.app/FrontendDocumentation.html",
   },
 ];
 
