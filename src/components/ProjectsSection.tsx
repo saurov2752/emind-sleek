@@ -9,6 +9,7 @@ const projects = [
     category: "Ecommerce Solution",
     description:
       "Empower your business with our sleek, feature-rich admin panel. Combining a stunning UI with intuitive controls, it’s the ultimate admin-friendly solution designed for seamless, high-performance ecommerce management.",
+    credentials: ["Email: admin@gmail.com", "Password: 12345678A"],
     technologies: ["Laravel", "Php", "MySql", "JWT Auth"],
     backgroundImage: adminDashboardBg,
     demoUrl: "https://admin.debuggermind.com",
@@ -20,6 +21,7 @@ const projects = [
     description:
       "Experience the future of retail with our AI-powered ecommerce platform. Blending a stunning modern UI with elite performance, it delivers a seamless, user-friendly shopping journey designed for high-conversion growth.",
     technologies: ["Next.js", "React", "Google AI"],
+    credentials: [],
     backgroundImage: ecommerceUserBg,
     demoUrl: "https://emind.debuggermind.com",
     docsUrl: "https://emind-frontend-documentation.vercel.app/FrontendDocumentation.html",
@@ -72,6 +74,42 @@ const ProjectsSection = () => {
                   {project.description}
                 </p>
 
+                {/* Credentials */}
+                {/* <div className="flex flex-wrap gap-2 mb-6">
+                  {project.credentials.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="px-3 py-1 text-xs font-medium bg-secondary text-secondary-foreground rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div> */}
+
+                {/* Credentials */}
+{project.credentials.length > 0 && (
+  <div className="mb-6">
+    <div className="flex items-center gap-2 mb-3">
+      <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2V7a5 5 0 00-5-5z" />
+      </svg>
+      <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
+        Demo Login
+      </span>
+    </div>
+    <div className="flex flex-wrap gap-2">
+      {project.credentials.map((cred, credIndex) => (
+        <span
+          key={credIndex}
+          className="px-3 py-1.5 text-xs font-medium bg-primary/10 text-primary border border-primary/20 rounded-lg"
+        >
+          {cred}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
+
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, techIndex) => (
@@ -83,6 +121,7 @@ const ProjectsSection = () => {
                     </span>
                   ))}
                 </div>
+
 
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3">
