@@ -9,7 +9,7 @@ const projects = [
     category: "Ecommerce Solution",
     description:
       "Empower your business with our sleek, feature-rich admin panel. Combining a stunning UI with intuitive controls, it’s the ultimate admin-friendly solution designed for seamless, high-performance ecommerce management.",
-    credentials: ["Email: admin@gmail.com", "Password: 12345678A"],
+    credentials: ["Email: admin@gmail.com", "Password: 123456"],
     technologies: ["Laravel", "Php", "MySql", "JWT Auth"],
     backgroundImage: adminDashboardBg,
     demoUrl: "https://admin.debuggermind.com",
